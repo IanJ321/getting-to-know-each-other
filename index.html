@@ -1,65 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Ian Jung</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .lewis, .course, .job {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header class="main-info">
-            <h1>[Your First and Last Name]</h1>
-            <h1>Preferred Name: [Your Preferred Name]</h1>
-        </header>
+    <head>
+        <!--Page Title and Configs (Font, Images, Color)-->
+        <title>Ian Jung's Introductions Website</title>
+        <style>  
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #333;
+                color: white;
+                line-height: 1.6;
+            }
+            .center-block{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .about-me, .learning, .hobbies, .fun-fact{
+                background: coral;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
 
-        <section class="lewis">
-			<h2>Year at Lewis: [Your Years at Lewis]</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
+    <body>
+        <!--Title, email, Disc, 800x800 img-->
+        <h1 style="text-align: center;">Ian Jung</h1>
+        <h3 style="text-align: center;">Email: <a href="iancjung@lewisu.edu">iancjung@lewisu.edu</a></h3>
+        <h3 style="text-align: center;">Discord: istoleyourtoast1</h3>
+        <img src="me.jpeg" alt="Me" style="width: 800; height: 800;" class="center-block">
+        <br>
+
+        <!--About Me-->
+        <section class="about-me">
+            <h2>Introduction</h2>
+            <p style="font-size: large;">
+                I am a Junior pursuing a degree in Computer Science, with no minor or concentrations.
+                I am from Chicago, IL, where I live with my parents, younger sister (17) and brother (15) and our dog.
+                My reason for pursuing this degree is because I would like to use my interests in technology in my future career.
+            </p>
         </section>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
+        <!--Learning Expectations-->
+        <section class="learning">
+            <h2>What I Hope to Learn in this Course</h2>
+            <ul style="font-size: large;">
+                <li>Developing, designing, and planning software creation</li>
+                <li>How to update and secure software</li>
+                <li>Teamwork and leadership as part of a Scrum team</li>
+            </ul>
         </section>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
-
+        <!--Hobbies-->
         <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
+            <h2>My Favorite Hobbies</h2>
+            <ul style="font-size: large;">
+                <li><a href="https://en.wikipedia.org/wiki/Drawing">Drawing</a></li>
+                <li>Video Games</li>
+                <li>Coding</li>
+                <li>Watching YouTube</li>
+            </ul>
         </section>
 
+        <!--Fun Fact-->
         <section class="fun-fact">
             <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
+            <p style="font-size: large;">I enjoy cleaning in my spare time, especially vacuuming</p>
         </section>
-    </div>
-</body>
+
+        <!--300x300 img-->
+        <br>
+        <img src="me.jpeg" alt="Me" style="width: 300; height: 300;" class="center-block">
+    </body>
+
+    <!--Last Updated-->
+    <footer>
+        <p style="text-align: left;">Last Updated: 03 September 2026, 08:11</p>
+    </footer>
 </html>
